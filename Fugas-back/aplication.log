@@ -1,0 +1,714 @@
+127.0.0.1 - - [22/Jan/2022 16:29:24] "GET /api/questions HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 16:29:27] "[32mOPTIONS /api//obtenerOpciones HTTP/1.1[0m" 308 -
+127.0.0.1 - - [22/Jan/2022 16:30:25] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 16:30:25] "[31m[1mPOST /api/obtenerOpciones HTTP/1.1[0m" 400 -
+127.0.0.1 - - [22/Jan/2022 16:30:34] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 16:30:34] "[31m[1mPOST /api/obtenerOpciones HTTP/1.1[0m" 400 -
+127.0.0.1 - - [22/Jan/2022 16:30:54] "GET /api/questions HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 16:30:57] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 16:30:57] "[31m[1mPOST /api/obtenerOpciones HTTP/1.1[0m" 400 -
+ * Detected change in 'E:\\351\\Fugas-back\\resources.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Jan/2022 16:31:42] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+PrologMQI launching swipl: ['swipl', '--quiet', '-g', 'mqi_start', '-t', 'halt', '--', '--write_connection_values=true']
+Prolog MQI port: 58614
+PrologMQI connecting to Prolog at: ('127.0.0.1', 58614)
+PrologMQI send: 105832252685692668757893511172104478732.
+
+PrologMQI receive: {
+  "args": [
+    [
+      [
+	{
+	  "args": ["mqi1_conn1_comm", "mqi1_conn1_goal" ],
+	  "functor":"threads"
+	}
+      ]
+    ]
+  ],
+  "functor":"true"
+}
+
+PrologMQI send: run((consult("./prolog.pl")), _).
+
+PrologMQI receive: {"args": [ [ [] ] ], "functor":"true"}
+
+PrologMQI send: run((status(X, Y)), _).
+
+PrologMQI receive: {
+  "args": [
+    [
+      [
+	{"args": ["X", "aria" ], "functor":"="},
+	{"args": ["Y", "alive" ], "functor":"="}
+      ],
+      [
+	{"args": ["X", "eddar" ], "functor":"="},
+	{"args": ["Y", "dead" ], "functor":"="}
+      ],
+      [
+	{"args": ["X", "rob" ], "functor":"="},
+	{"args": ["Y", "alive" ], "functor":"="}
+      ],
+      [
+	{"args": ["X", "jon" ], "functor":"="},
+	{"args": ["Y", "alive" ], "functor":"="}
+      ]
+    ]
+  ],
+  "functor":"true"
+}
+
+PrologMQI send: close.
+
+PrologMQI receive: {"args": [ [ [] ] ], "functor":"true"}
+
+PrologMQI connecting to Prolog at: ('127.0.0.1', 58614)
+PrologMQI send: 105832252685692668757893511172104478732.
+
+PrologMQI receive: {
+  "args": [
+    [
+      [
+	{
+	  "args": ["mqi1_conn2_comm", "mqi1_conn2_goal" ],
+	  "functor":"threads"
+	}
+      ]
+    ]
+  ],
+  "functor":"true"
+}
+
+PrologMQI send: quit.
+
+PrologMQI receive: {"args": [ [ [] ] ], "functor":"true"}
+
+127.0.0.1 - - [22/Jan/2022 16:31:43] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 16:31:59] "GET /api/questions HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 16:32:01] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+PrologMQI launching swipl: ['swipl', '--quiet', '-g', 'mqi_start', '-t', 'halt', '--', '--write_connection_values=true']
+Prolog MQI port: 58631
+PrologMQI connecting to Prolog at: ('127.0.0.1', 58631)
+PrologMQI send: 120661935330090498394400841908576489806.
+
+PrologMQI receive: {
+  "args": [
+    [
+      [
+	{
+	  "args": ["mqi1_conn1_comm", "mqi1_conn1_goal" ],
+	  "functor":"threads"
+	}
+      ]
+    ]
+  ],
+  "functor":"true"
+}
+
+PrologMQI send: run((consult("./prolog.pl")), _).
+
+PrologMQI receive: {"args": [ [ [] ] ], "functor":"true"}
+
+PrologMQI send: run((status(X, Y)), _).
+
+PrologMQI receive: {
+  "args": [
+    [
+      [
+	{"args": ["X", "aria" ], "functor":"="},
+	{"args": ["Y", "alive" ], "functor":"="}
+      ],
+      [
+	{"args": ["X", "eddar" ], "functor":"="},
+	{"args": ["Y", "dead" ], "functor":"="}
+      ],
+      [
+	{"args": ["X", "rob" ], "functor":"="},
+	{"args": ["Y", "alive" ], "functor":"="}
+      ],
+      [
+	{"args": ["X", "jon" ], "functor":"="},
+	{"args": ["Y", "alive" ], "functor":"="}
+      ]
+    ]
+  ],
+  "functor":"true"
+}
+
+PrologMQI send: close.
+
+PrologMQI receive: {"args": [ [ [] ] ], "functor":"true"}
+
+PrologMQI connecting to Prolog at: ('127.0.0.1', 58631)
+PrologMQI send: 120661935330090498394400841908576489806.
+
+PrologMQI receive: {
+  "args": [
+    [
+      [
+	{
+	  "args": ["mqi1_conn2_comm", "mqi1_conn2_goal" ],
+	  "functor":"threads"
+	}
+      ]
+    ]
+  ],
+  "functor":"true"
+}
+
+PrologMQI send: quit.
+
+PrologMQI receive: {"args": [ [ [] ] ], "functor":"true"}
+
+127.0.0.1 - - [22/Jan/2022 16:32:01] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+ * Detected change in 'E:\\351\\Fugas-back\\resources.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+ * Detected change in 'E:\\351\\Fugas-back\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Jan/2022 16:39:26] "GET /api/questions HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 16:39:29] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 16:39:29] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+ * Detected change in 'E:\\351\\Fugas-back\\resources.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+ * Detected change in 'E:\\351\\Fugas-back\\resources.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Jan/2022 16:52:31] "GET /api/questions HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 16:52:32] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 16:52:32] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 16:53:12] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 16:53:12] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 16:58:22] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 16:58:22] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 16:59:57] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 16:59:57] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:00:34] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:00:35] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:01:07] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:01:08] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:01:34] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:01:34] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:02:39] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:02:40] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+ * Detected change in 'E:\\351\\Fugas-back\\resources.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Jan/2022 17:04:06] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:04:06] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:04:34] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:04:34] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:04:38] "[32mOPTIONS /api//nextStep HTTP/1.1[0m" 308 -
+ * Detected change in 'E:\\351\\Fugas-back\\resources.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Jan/2022 17:05:20] "[32mOPTIONS /api//nextStep HTTP/1.1[0m" 308 -
+127.0.0.1 - - [22/Jan/2022 17:05:28] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:05:29] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:05:34] "[32mOPTIONS /api//nextStep HTTP/1.1[0m" 308 -
+127.0.0.1 - - [22/Jan/2022 17:05:52] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:05:52] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:05:56] "OPTIONS /api/nextStep HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:05:56] "POST /api/nextStep HTTP/1.1" 200 -
+ * Detected change in 'E:\\351\\Fugas-back\\resources.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Jan/2022 17:08:10] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:08:11] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:08:13] "OPTIONS /api/nextStep HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:08:14] "POST /api/nextStep HTTP/1.1" 200 -
+ * Detected change in 'E:\\351\\Fugas-back\\resources.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Jan/2022 17:12:13] "GET /api/questions HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:12:14] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:12:14] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:12:17] "OPTIONS /api/nextStep HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:12:18] "POST /api/nextStep HTTP/1.1" 200 -
+ * Detected change in 'E:\\351\\Fugas-back\\prolog.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+ * Detected change in 'E:\\351\\Fugas-back\\prolog.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Jan/2022 17:19:01] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:19:01] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+ * Detected change in 'E:\\351\\Fugas-back\\resources.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+ * Detected change in 'E:\\351\\Fugas-back\\routes.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Jan/2022 17:19:50] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:19:50] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+ * Detected change in 'E:\\351\\Fugas-back\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Jan/2022 17:21:05] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:21:05] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Jan/2022 17:21:16] "OPTIONS /api/nextStep HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:21:16] "POST /api/nextStep HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:21:19] "OPTIONS /api/result HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:21:19] "[31m[1mPOST /api/result HTTP/1.1[0m" 400 -
+ * Detected change in 'E:\\351\\Fugas-back\\resources.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Jan/2022 17:22:19] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:22:19] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:22:23] "OPTIONS /api/nextStep HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:22:24] "POST /api/nextStep HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:22:27] "OPTIONS /api/result HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:22:27] "POST /api/result HTTP/1.1" 200 -
+ * Detected change in 'E:\\351\\Fugas-back\\prolog.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Jan/2022 17:25:13] "OPTIONS /api/result HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:25:13] "POST /api/result HTTP/1.1" 200 -
+ * Detected change in 'E:\\351\\Fugas-back\\prolog.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+ * Detected change in 'E:\\351\\Fugas-back\\resources.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Jan/2022 17:26:00] "OPTIONS /api/result HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:26:01] "POST /api/result HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:26:26] "GET /api/questions HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:26:29] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:26:29] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:26:32] "OPTIONS /api/nextStep HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:26:32] "POST /api/nextStep HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:26:34] "OPTIONS /api/result HTTP/1.1" 200 -
+PrologMQI launching swipl: ['swipl', '--quiet', '-g', 'mqi_start', '-t', 'halt', '--', '--write_connection_values=true']
+Prolog MQI port: 60683
+PrologMQI connecting to Prolog at: ('127.0.0.1', 60683)
+PrologMQI send: 332199104012894552625282204027261064146.
+
+PrologMQI receive: {
+  "args": [
+    [
+      [
+	{
+	  "args": ["mqi1_conn1_comm", "mqi1_conn1_goal" ],
+	  "functor":"threads"
+	}
+      ]
+    ]
+  ],
+  "functor":"true"
+}
+
+PrologMQI send: run((consult("./prolog.pl")), _).
+
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:2:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:3:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:4:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:5:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:6:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:8:16: Syntax error: Operator expected
+Prolog: Warning: e:/351/fugas-back/prolog.pl:9:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:13:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:15:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:18:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:38:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:39:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:40:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:41:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:42:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:43:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:44:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:45:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:58:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:59:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:60:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:62:4: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:63:4: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:64:4: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:65:4: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:66:4: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:71:7: Syntax error: Operator expected
+Prolog: Warning: e:/351/fugas-back/prolog.pl:72:
+Prolog: Warning:    Clauses of dura_mas/2 are not together in the source-file
+Prolog: Warning:    Earlier definition at e:/351/fugas-back/prolog.pl:13
+PrologMQI receive: {"args": [ [ [] ] ], "functor":"true"}
+
+Prolog: Warning:    Current predicate: asentamiento_terreno/1
+PrologMQI send: run((antiguedad_instalacion(40), existe_desgaste(pvc, 40)), _).
+
+Prolog: Warning:    Use :- discontiguous dura_mas/2. to suppress this message
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:74:10: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:75:46: Syntax error: Operator expected
+PrologMQI receive: {
+  "args": [
+    {
+      "args": [
+	"procedure",
+	{"args": ["antiguedad_instalacion", 1 ], "functor":"/"}
+      ],
+      "functor":"existence_error"
+    }
+  ],
+  "functor":"exception"
+}
+
+PrologMQI send: close.
+
+PrologMQI receive: {"args": [ [ [] ] ], "functor":"true"}
+
+PrologMQI connecting to Prolog at: ('127.0.0.1', 60683)
+PrologMQI send: 332199104012894552625282204027261064146.
+
+PrologMQI receive: {
+  "args": [
+    [
+      [
+	{
+	  "args": ["mqi1_conn2_comm", "mqi1_conn2_goal" ],
+	  "functor":"threads"
+	}
+      ]
+    ]
+  ],
+  "functor":"true"
+}
+
+PrologMQI send: quit.
+
+PrologMQI receive: {"args": [ [ [] ] ], "functor":"true"}
+
+127.0.0.1 - - [22/Jan/2022 17:26:35] "[35m[1mPOST /api/result HTTP/1.1[0m" 500 -
+ * Detected change in 'E:\\351\\Fugas-back\\prolog.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Jan/2022 17:27:37] "OPTIONS /api/result HTTP/1.1" 200 -
+PrologMQI launching swipl: ['swipl', '--quiet', '-g', 'mqi_start', '-t', 'halt', '--', '--write_connection_values=true']
+Prolog MQI port: 60726
+PrologMQI connecting to Prolog at: ('127.0.0.1', 60726)
+PrologMQI send: 41521211551287774785108614280261677309.
+
+PrologMQI receive: {
+  "args": [
+    [
+      [
+	{
+	  "args": ["mqi1_conn1_comm", "mqi1_conn1_goal" ],
+	  "functor":"threads"
+	}
+      ]
+    ]
+  ],
+  "functor":"true"
+}
+
+PrologMQI send: run((consult("./prolog.pl")), _).
+
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:2:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:3:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:4:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:5:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:6:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:8:16: Syntax error: Operator expected
+Prolog: Warning: e:/351/fugas-back/prolog.pl:9:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:13:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:15:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:18:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:38:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:39:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:40:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:41:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:42:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:43:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:44:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: Warning: e:/351/fugas-back/prolog.pl:45:
+Prolog: Warning:    Singleton variables: [PVC]
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:58:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:59:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:60:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:62:4: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:63:4: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:64:4: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:65:4: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:66:4: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:71:7: Syntax error: Operator expected
+Prolog: Warning: e:/351/fugas-back/prolog.pl:72:
+PrologMQI receive: {"args": [ [ [] ] ], "functor":"true"}
+
+Prolog: Warning:    Clauses of dura_mas/2 are not together in the source-file
+PrologMQI send: run((antiguedad_instalacion(40), existe_desgaste(pvcpvc, 40)), _).
+
+Prolog: Warning:    Earlier definition at e:/351/fugas-back/prolog.pl:13
+Prolog: Warning:    Current predicate: asentamiento_terreno/1
+Prolog: Warning:    Use :- discontiguous dura_mas/2. to suppress this message
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:74:10: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:75:46: Syntax error: Operator expected
+PrologMQI receive: {
+  "args": [
+    {
+      "args": [
+	"procedure",
+	{"args": ["antiguedad_instalacion", 1 ], "functor":"/"}
+      ],
+      "functor":"existence_error"
+    }
+  ],
+  "functor":"exception"
+}
+
+PrologMQI send: close.
+
+PrologMQI receive: {"args": [ [ [] ] ], "functor":"true"}
+
+PrologMQI connecting to Prolog at: ('127.0.0.1', 60726)
+PrologMQI send: 41521211551287774785108614280261677309.
+
+PrologMQI receive: {
+  "args": [
+    [
+      [
+	{
+	  "args": ["mqi1_conn2_comm", "mqi1_conn2_goal" ],
+	  "functor":"threads"
+	}
+      ]
+    ]
+  ],
+  "functor":"true"
+}
+
+PrologMQI send: quit.
+
+PrologMQI receive: {"args": [ [ [] ] ], "functor":"true"}
+
+127.0.0.1 - - [22/Jan/2022 17:27:37] "[35m[1mPOST /api/result HTTP/1.1[0m" 500 -
+127.0.0.1 - - [22/Jan/2022 17:36:05] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:36:05] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:36:12] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:36:12] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:36:54] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:36:54] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:37:20] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:37:20] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:37:50] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:37:50] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+ * Detected change in 'E:\\351\\Fugas-back\\prolog.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+ * Detected change in 'E:\\351\\Fugas-back\\resources.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Jan/2022 17:41:00] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:41:01] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:41:29] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:41:29] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:41:32] "GET /api/questions HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:43:21] "GET /api/questions HTTP/1.1" 200 -
+ * Detected change in 'E:\\351\\Fugas-back\\resources.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Jan/2022 17:43:49] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:43:49] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:44:45] "OPTIONS /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:44:45] "POST /api/obtenerOpciones HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:45:45] "OPTIONS /api/nextStep HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:45:45] "POST /api/nextStep HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:46:05] "OPTIONS /api/result HTTP/1.1" 200 -
+PrologMQI launching swipl: ['swipl', '--quiet', '-g', 'mqi_start', '-t', 'halt', '--', '--write_connection_values=true']
+Prolog MQI port: 61457
+PrologMQI connecting to Prolog at: ('127.0.0.1', 61457)
+PrologMQI send: 238989896422113001941801191679085769299.
+
+PrologMQI receive: {
+  "args": [
+    [
+      [
+	{
+	  "args": ["mqi1_conn1_comm", "mqi1_conn1_goal" ],
+	  "functor":"threads"
+	}
+      ]
+    ]
+  ],
+  "functor":"true"
+}
+
+PrologMQI send: run((consult("./prolog.pl")), _).
+
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:2:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:3:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:4:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:5:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:6:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:59:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:60:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:61:7: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:63:4: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:64:4: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:65:4: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:66:4: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:67:4: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:75:10: Syntax error: Operator expected
+Prolog: ERROR: [Thread mqi1_conn1_goal] e:/351/fugas-back/prolog.pl:76:46: Syntax error: Operator expected
+PrologMQI receive: {"args": [ [ [] ] ], "functor":"true"}
+
+PrologMQI send: run((antiguedad_instalacion(80), existe_desgaste(plomo, 80)), _).
+
+PrologMQI receive: {
+  "args": [
+    {
+      "args": [
+	"procedure",
+	{"args": ["antiguedad_instalacion", 1 ], "functor":"/"}
+      ],
+      "functor":"existence_error"
+    }
+  ],
+  "functor":"exception"
+}
+
+PrologMQI send: close.
+
+PrologMQI receive: {"args": [ [ [] ] ], "functor":"true"}
+
+PrologMQI connecting to Prolog at: ('127.0.0.1', 61457)
+PrologMQI send: 238989896422113001941801191679085769299.
+
+PrologMQI receive: {
+  "args": [
+    [
+      [
+	{
+	  "args": ["mqi1_conn2_comm", "mqi1_conn2_goal" ],
+	  "functor":"threads"
+	}
+      ]
+    ]
+  ],
+  "functor":"true"
+}
+
+PrologMQI send: quit.
+
+PrologMQI receive: {"args": [ [ [] ] ], "functor":"true"}
+
+127.0.0.1 - - [22/Jan/2022 17:46:06] "[35m[1mPOST /api/result HTTP/1.1[0m" 500 -
+ * Detected change in 'E:\\351\\Fugas-back\\resources.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 134-145-669
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Jan/2022 17:46:40] "OPTIONS /api/result HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 17:46:40] "POST /api/result HTTP/1.1" 200 -
